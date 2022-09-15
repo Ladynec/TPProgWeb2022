@@ -1,0 +1,83 @@
+
+
+/* CSS tabla pagina Carrito*/
+.demo {
+    width: 800px;
+    height:500px ;
+    border-collapse:colapso;
+    padding:10px;
+   
+}
+.demo th {
+    border:1px solid #C0C0C0;
+    padding:10px;
+    background:#F0F0F0;
+}
+.filas{
+    border:1px solid #C0C0C0;
+    padding:10px;
+    background:#ffffff;
+}
+
+#producto_vista_carrito{
+    width: 200px;
+}
+
+
+
+#pagina_carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*3vista-Categorias*/
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main_vista_categorias h1{ 
+    text-align: center;
+    margin-top: 25%;
+}
+
+#items_pantalla_categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 20px;
+
+}
+
+.item_categorias{  /*practicar poner en el centro de la imagen un texto*/
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.h2_3Vista_Categorias{
+   
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-37%, -37%);
+    color: #ffffff;
+    text-shadow: 2px 2px #161515
+    }
+
+
+    /*3Vista_Categorias_Almacen*/
+
+    .item_categorias{
+        border: 1px solid black;
+    }
+
+    .contendor2{
+        border: 1px solid black;
+        border-left: 0px;
+        border-right: 0px;
+    }
+   

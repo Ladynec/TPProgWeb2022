@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav></nav>
+    <main>
+        <section>
+            <form action="">
+            <h1>Pagar <img src="img/tarjetita.png" alt="Medios de Pago"></h1>
+            <p><label for="tarjetas_guardadas">Tarjetas Guardadas</label> 
+            <select name="tarjetas_guardadas" id="">
+                <option value="0">--Seleccionar--</option>
+                <option value="1">Visa</option>
+                <option value="2">Master</option>
+            </select>
+             </p>
+             <p> <input type="checkbox" name="otra_tarjeta" id="">Otra tarjeta</p>
+             <p id="direcciones_guardadas"><label for="direcciones_guardadas">Direcciones Guardadas</label> 
+                <select name="direcciones_guardadas" id="">
+                    <option value="0">--Seleccionar--</option>
+                    <option value="1">Rio Cuarto 3200</option>
+                    <option value="2">Calle Falsa 123</option>
+                </select>
+                 </p>
+              <div id="otra_tarjeta">
+              <p><label for="numero_tarjeta">Numero de tarjeta</label><input type="text" name="numero_tarjeta"></p>   
+              <p><label for="codigo_tarjeta">Codigo</label><input type="text" name="codigo_tarjeta">
+                <label for="Vencimiento_tarjeta">Vencimiento</label><input type="text" name="Vencimiento_tarjeta"></p>
+                <p><label for="nombre_titular">Nombre del titular</label><input type="text" name="nombre_titular"></p>
+              </div>
+                <p> <input type="checkbox" name="otra_direccion" id="">Otra direccion</p>
+                 <button type="submit">Pagar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
