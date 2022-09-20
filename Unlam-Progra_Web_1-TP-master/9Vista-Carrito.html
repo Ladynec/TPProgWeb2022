@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -13,81 +15,117 @@
 
     </header>
     <nav></nav>
-    <main >
-        <h1>Carrito</h1>
+    <main  >
+        
         <section id="pagina_carrito">
-            <table class="demo">
-                <thead>
-                <tr>
-                    <th id="producto_vista_carrito">Producto</th>
-                    <th>Cantidad</th>
-                    <th>Precio</th>
-                    
-                </tr>
-                </thead>
-                <tbody> 
+            <h1>Carrito</h1>
+            <div class="contenedor_tablas" id="encabezado">
+                <div class="tabla_producto">Producto</div>
+                <div class="tablas">Cantidad</div>
+                <div class="tablas">Precio</div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas">lalalal</div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>
+            </div>
+            <div class="contenedor_tablas">
+                <div class="tabla_producto"></div>
+                <div class="tablas"></div>
+                <div class="tablas"></div>    
+            </div>
+            <div id="contenedor_boton_carrito">
+                <a href="10Vista_Pagar.html" id="boton_vista_carrito">PAGAR</a>
                 
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td> 
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas"></td>
-                    <td class="filas_basuritas"><img src="img/basurita.png" alt=""></td>
-                </tr>
-                <tbody> 
-            </table> 
-            
+            </div>
+            <div id="contenedor_formulario_vista_pagar">
+                <section id="formulario_pagar">
+                    <button id="salir_vista10"><span class="material-icons" id="color_icono_salir">
+                        highlight_off
+                        </span></button>
+                    <form id="formulario_pagar1" action="#">
+                    <h1>Pagar <img src="img/tarjetita.png" alt="Medios de Pago"></h1>
+                    <p><label for="tarjetas_guardadas" class="Label_Vista_Pagar">Tarjetas Guardadas</label> 
+                    <div class="caja_select_vista_pagar1"><select name="tarjetas_guardadas" id="tarjetas_guardadas" class="Select_Vista_Pagar">
+                        <option value="0">--Seleccionar--</option>
+                        <option value="1">Visa</option>
+                        <option value="2">Master</option>
+                    </select> </div>
+                     </p>
+                     <p> <input type="checkbox" name="otra_tarjeta" id="">Otra tarjeta</p>
+                     <div id="row_complejo_vista_pagar">
+                      <div id="otra_tarjeta">
+                      <p ><label for="numero_tarjeta" class="Label_Vista_Pagar">Numero de tarjeta</label></p>   
+                      <p><label for="codigo_tarjeta" class="Label_Vista_Pagar">Codigo</label></p> 
+                        <p><label for="nombre_titular" class="Label_Vista_Pagar">Nombre del titular</label></p> 
+                      </div>
+                      <div id="columna_interna_vista_pagar">
+                        <input type="text" name="numero_tarjeta" class="inputs_Vista_Pagar">   
+                        <div id="row_interno_vista_pagar">
+                             <input type="text" name="codigo_tarjeta" class="inputs_Vista_Pagar_Peques">
+                             <label for="Vencimiento_tarjeta" class="Label_Vista_Pagar" id="vencimiento_tarjetas_vista_pagar">Vencimiento</label>
+                             <input type="text" name="Vencimiento_tarjeta" class="inputs_Vista_Pagar_Peques">
+                        </div>
+                        <input type="text" name="nombre_titular" class="inputs_Vista_Pagar">
+                      </div>
+                    </div>
+                      <p id="direcciones_guardadas"><label for="direcciones_guardadas" class="Label_Vista_Pagar">Direcciones Guardadas</label> 
+                        <div class="caja_select_vista_pagar2"><select name="direcciones_guardadas" id="" class="Select_Vista_Pagar">
+                            <option value="0">--Seleccionar--</option>
+                            <option value="1">Rio Cuarto 3200</option>
+                            <option value="2">Calle Falsa 123</option>
+                        </select></div>
+                         </p> 
+                        <p> <input type="checkbox" name="otra_direccion" id="">Otra direccion</p>
+                         <button type="submit" id="boton_pagar_vista_pagar">Pagar</button>
+                    </form>
+                </section>
+                 </div>
         </section>
- 
-        <button type="submit">PAGAR</button>
+        <section>
+
+        </section>
+
 
     </main>
 
