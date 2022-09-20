@@ -1,5 +1,9 @@
 
-
+main{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 /* CSS tabla pagina Carrito*/
 .demo {
     width: 800px;
@@ -29,12 +33,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 
 /*3vista-Categorias*/
-h1, h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 #main_vista_categorias h1{ 
     text-align: center;
     margin-top: 25%;
@@ -73,11 +76,339 @@ h1, h2{
 
     .item_categorias{
         border: 1px solid black;
+        padding-top: 10px;
     }
 
     .contendor2{
-        border: 1px solid black;
+        border: 1px solid #C0C0C0;
         border-left: 0px;
         border-right: 0px;
+        background-color: #C0C0C0;
+        text-align: left;
+        
+
+        
     }
+
+    .texto_nombre_producto{
+       font-size: 15px;
+        width: 277px;
+        height: 15px;
+        padding: 10px;
+ 
+    }
+
+    .cantidad_y_compra{
+       position: absolute;
+       right: 0;
+       bottom: 20px;
+       padding-right: 60px;
+       
+    
+    }
+
+    .boton_carrito_categorias{
+        
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        background-color: #747373;
+        border-color:#747373;
+        position: absolute;
+        right: 10px;
+        bottom: -8px;
+  
+    }
+
+    .material-icons{ color: rgb(187, 187, 187); }
+
+    .precio_producto{
+        color: #ffffff;
+       
+        font-size: large;
+        width: 100px;
+        height: 30px;
+        border-radius: 75px 0 0 75px;
+        background-color: #747373;
+        border-color:#747373;
+        padding: 5px;
+        position: absolute;
+        right: 0;
+        top: 100px;
+
+    }
+    #item_categorias_almacen{
+        position: relative;
+    }
+
+ /* CSS de 8Vista-Contacto*/
+
+ #contenedor_contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+ }
+ 
+ #mapa{
+    position: absolute;
+    left: 180px;
+    top: 650px;
+
+ }
+
+ .label_contacto{
+   width: 30px;
+   height: 20px;
    
+   margin: 5px;
+ }
+
+ #labels_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+ }
+
+ #inputs_contacto{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    justify-content: space-between;
+ }
+
+ #contenido_formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ /*CSS 9Vista-Carrito*/
+
+ .tabla_producto{
+    width: 800px;
+    height: 40px;
+    padding-top: 5px;
+ }
+ .contenedor_tablas{
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgb(71, 71, 71) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 5px;
+ }
+
+#encabezado{
+    border: 1px solid rgb(71, 71, 71) ;
+    background-color: #747373;
+    text-align: center;
+    color: #F0F0F0;
+    
+}
+ .tablas{
+    width: 400px;
+    height: 40px;
+    border-left: 1px solid rgb(71, 71, 71) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+ }
+
+#pagina_carrito{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left:400px;
+    
+    
+}
+
+#boton_vista_carrito{
+   position: absolute;
+   right: 0;
+   top: 15px;
+   display: block;
+   width: 100px;
+   height: 30px;
+   background-color: #747373;
+   color: #ffffff;
+   text-decoration: none;
+   border-radius: 75px;
+   text-align: center;
+   padding-top: 5px;
+    
+}
+
+#contenedor_boton_carrito{
+    position: relative;
+    width: 600px;
+    height: 40px;
+   
+}
+
+/* CSS 10Vista_Pagar y 9 Vista_carrito*/
+#formulario_pagar{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    position: relative;   
+}
+
+#salir_vista10{
+    position: relative;   
+}
+
+#boton_pagar_vista_pagar{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    
+}
+#formulario_pagar1{
+
+    position: relative;
+    left: 10px;
+    top: 0;
+}
+
+#color_icono_salir { 
+    color: rgb(255, 255, 255); 
+    font-size: 50px;
+    position: absolute;
+    right: -5px;
+    top: -5px;;
+
+
+}
+
+#salir_vista10{
+   background-color: rgb(238, 44, 44);
+   border-radius: 50%;
+   width:40px;
+   height: 40px;
+   border: 0;
+   position: absolute;
+   right: -19px;
+   top: -20px;
+}
+
+
+.inputs_Vista_Pagar{
+    width: 150px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 163, 163);
+   margin-left: 100px;
+}
+
+.inputs_Vista_Pagar_Peques{
+    width: 50px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 163, 163);
+}
+
+.Select_Vista_Pagar{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    padding-bottom: 10px ;
+    position: absolute;
+    
+
+}
+
+.caja_select_vista_pagar1{
+    margin:20px auto 40px auto;	
+    border:1px solid #797979;
+    height: 24px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    position:absolute;
+    top: 35px;
+    right: 30px;
+}
+.caja_select_vista_pagar1::after{
+	content:"\025be";
+	display:table-cell;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+
+.caja_select_vista_pagar2{
+    margin:20px auto 40px auto;	
+    border:1px solid #797979;
+    height: 24px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    position:absolute;
+    bottom: 1px;
+    right: 30px;
+}
+
+.caja_select_vista_pagar2::after{
+	content:"\025be";
+	display:table-cell;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+
+#otra_tarjeta{
+    width: 111px;
+    text-align: right;
+}
+
+#vencimiento_tarjetas_vista_pagar{
+     display: flex;
+     display: inline-block;
+
+}
+
+#row_interno_vista_pagar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#columna_interna_vista_pagar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#row_complejo_vista_pagar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10px;
+     /*display: none para ver el formulario 1 de 10.Vista_Pagar*/
+    
+}
+
+#contenedor_formulario_vista_pagar{
+    position: absolute;
+}
